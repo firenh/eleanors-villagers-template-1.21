@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "firenh.eleanorsvillagers.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"TradeOffers_EnchantBookFactoryMixin",
+		"TradeOfferAccessor",
+		"VillagerEntityMixin",
+		"VillagerEntityAccessor",
+		"VillagerWorkTaskMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
